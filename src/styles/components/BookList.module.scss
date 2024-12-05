@@ -1,0 +1,20 @@
+.bookList {
+  display: flex;
+  justify-content: center;
+
+  &-head {
+    border: 2px solid #9cb0c9;
+    &__th {
+    }
+  }
+  &-list {
+    margin: 1rem 0;
+    display: block;
+
+    &-link {
+      text-decoration: none;
+      color: #222;
+      box-sizing: border-box;
+    }
+  }
+}
